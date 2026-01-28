@@ -4,7 +4,7 @@ class ParticleBackground {
         this.canvas = document.getElementById('particles');
         this.ctx = this.canvas.getContext('2d');
         this.particles = [];
-        this.particleCount = 80;
+        this.particleCount = 40;
         this.mouse = { x: null, y: null, radius: 150 };
         
         this.init();

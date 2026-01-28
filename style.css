@@ -11,8 +11,8 @@
     --accent-gradient: linear-gradient(135deg, #00d4ff 0%, #7c3aed 100%);
     --border-color: rgba(255, 255, 255, 0.08);
     --glow: 0 0 20px rgba(0, 212, 255, 0.3);
-    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-    --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+    --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    --font-mono: 'SF Mono', Menlo, Monaco, 'Courier New', monospace;
 }
 
 /* ===== Reset & Base ===== */
@@ -573,13 +573,16 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 6px;
 }
 
-.skill-icon img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+.skill-icon span {
+    font-size: 11px;
+    font-weight: 700;
+    font-family: var(--font-mono);
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .skill-name {
