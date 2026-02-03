@@ -576,6 +576,24 @@ section {
     min-width: 0;
 }
 
+.experience-logos {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 14px;
+}
+
+.experience-logo {
+    height: 36px;
+    width: auto;
+    object-fit: contain;
+    opacity: 0.9;
+}
+
+.experience-logo:hover {
+    opacity: 1;
+}
+
 .experience-title {
     font-size: 1.3rem;
     font-weight: 600;
