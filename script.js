@@ -221,7 +221,7 @@ function handleScrollAnimations() {
         });
     }, { threshold: 0.2 });
     
-    document.querySelectorAll('.hero-stats, .skills-grid, .project-card, .about-content').forEach(el => {
+    document.querySelectorAll('.hero-stats, .skills-grid, .project-card, .about-content, .experience-card').forEach(el => {
         observer.observe(el);
     });
 }
