@@ -293,7 +293,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialize typing effect
     const typedElement = document.getElementById('typedText');
     new TypeWriter(typedElement, [
-        'Backend Engineer',
+        'Backend Software Engineer',
         'System Architect',
         'Go Developer',
         'Cloud Native Expert',
